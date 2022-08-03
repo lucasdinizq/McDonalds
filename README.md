@@ -1,1 +1,1 @@
-# Um site estilizado com css grid e estruturado com o HTML
+# Site do McDonalds estilizado com CSS e estruturado com HTML
