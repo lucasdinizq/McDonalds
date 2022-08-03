@@ -1,0 +1,213 @@
+body {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  margin-right: 15%;
+  margin-left: 15%;
+}
+
+#header {
+  background-color: #d3222a;
+  height: 120px;
+}
+
+.img {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 42px;
+  color: #ffc82d;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  margin-left: 49px;
+}
+
+#headerCta li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  font-weight: normal;
+  font-style: normal;
+  margin-left: 3px;
+  margin-right: 22px;
+  color: #ffc82d;
+  font-weight: 600;
+}
+
+#headerCta li:hover {
+  color: black;
+}
+
+#headerCta {
+  text-align: right;
+  margin-top: 49px;
+}
+
+.apresentation {
+  margin-top: 49px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 42px;
+  color: #ffc82d;
+  line-height: 50px;
+}
+
+.gray {
+  color: #444;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 32px;
+}
+
+#headerImg img {
+  width: 80%;
+  height: auto;
+  text-align: center;
+  margin-left: 90px;
+  margin-top: 49px;
+}
+
+.empresa-information {
+  margin-bottom: 80px;
+  margin-top: 40px;
+}
+
+#buttonCta {
+  background-color: #d3222a;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 30px;
+  margin-top: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: inline-block;
+}
+
+#buttonCta:hover {
+  color: #ffc82d;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 14px;
+}
+
+.text-center {
+  margin-top: 80px;
+  text-align: center;
+}
+
+#icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#icons img {
+  width: 15%;
+  height: auto;
+}
+
+.vantagens {
+  font-size: 16px;
+  color: #d3222a;
+  font-style: normal;
+  font-weight: 800;
+}
+
+#contac-form {
+  text-align: center;
+  margin-top: 150px;
+  text-align: center;
+}
+#contac-form input {
+  background-color: #f5f6fb;
+  padding: 9px;
+  border-radius: 50px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  width: 50%;
+  height: auto;
+  margin-top: 10px;
+  color: #444;
+}
+
+.button {
+  margin-bottom: 10px;
+  margin-top: 30px;
+  margin-left: 10px;
+  border-radius: 20px;
+  padding: 10px 40px;
+  background-color: #d3222a;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  color: #f5f6fb;
+}
+
+.button:hover {
+  color: #ffc82d;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 14px;
+}
+
+#contat {
+  font-size: 28px;
+  text-align: center;
+}
+
+.lancheDoDia {
+  margin-top: 80px;
+}
+
+#lanches img {
+  width: 90%;
+  height: 80%;
+  padding: 10px 10px;
+}
+
+.top {
+  margin-left: 22px;
+  font-weight: 900;
+  font-size: 30px;
+  line-height: 42px;
+  color: #ffc82d;
+}
+
+h3 {
+  text-align: center;
+  font-size: 16px;
+  color: #d3222a;
+  font-style: normal;
+  font-weight: 800;
+}
+
+#lanches {
+  margin-top: 20px;
+  margin-bottom: 80px;
+}
+#copyright {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  background-color: #d3222a;
+  padding: 20px 0px;
+  margin: 0;
+  font-size: 16px;
+  color: #ffc82d;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 400px) {
+  body {
+    background-color: red;
+  }
+}
